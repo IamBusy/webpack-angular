@@ -1,0 +1,26 @@
+<ion-view>
+    <ion-content class="padding">
+        <div style="margin-top: 120px;">
+            <form name="myForm" novalidate="">
+                <div class="list list-inset" style="background-color:transparent;">
+                    <label class="item item-input">
+                        <input name="phone" ng-maxlength="11" ng-minlength="11" ng-model="user.phone" ng-pattern="/^(((1[0-9]{2})|159|153)+\d{8})$/" placeholder="输入手机号" required="" type="number"/>
+                    </label>
+                    <label class="item item-input">
+                        <input name="password" ng-maxlength="32" ng-minlength="6" ng-model="user.password" placeholder="6-32位字母数字组合" required="" type="password">
+                        </input>
+                    </label>
+                    <input class="button button-block button-small button-positive" ng-click="signin()" ng-disabled="myForm.$invalid" type="submit" value="登录" />
+                    <div class="row">
+                        <div class="col button button-clear button-positive" ui-sref="register" style="color:#7b7b7b;">
+                            用户注册
+                        </div>
+                        <button class="col button button-clear button-positive" style="color:#7b7b7b;">
+                            重置密码
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </ion-content>
+</ion-view>
