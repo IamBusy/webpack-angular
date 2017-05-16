@@ -4,7 +4,7 @@
 
 module.exports = {
     version: 1.0,
-    api: 'http://devapi.umeishu.com/v1/',
+    api: 'http://api.example.com/v1/',
     appPath: 'http://localhost:8080/',
-    oauthPath: 'http://api.umeishu.com/v1/sdk/wechat/'
+    oauthPath: 'http://oauth.example.com/v1/sdk/wechat/'
 };
