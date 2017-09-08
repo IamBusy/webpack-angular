@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "webpack   --config webpack.dev.config.js",
+    "start": "webpack   --config webpack.pro.config.js"
   },
   "author": "",
   "license": "ISC",

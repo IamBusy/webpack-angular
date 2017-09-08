@@ -8,6 +8,18 @@ git clone https://github.com/IamBusy/webpack-angular.git
 cd webpack-angular
 npm install
 ```
+When you are develop your project, you can use
+```
+npm test
+```
+This command will use `webpack.dev.config.js` file
+
+For production environment, use
+```
+npm start
+```
+This command will use `webpack.pro.config.js` file
+
 
 # How to organize
 I was confused by the question of how to integrate angular with webpack. 
