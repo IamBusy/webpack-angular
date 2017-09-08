@@ -8,11 +8,12 @@ git clone https://github.com/IamBusy/webpack-angular.git
 cd webpack-angular
 npm install
 ```
-When you are develop your project, you can use
+When you are developing your project, you can use
 ```
 npm test
 ```
-This command will use `webpack.dev.config.js` file
+This command will use `webpack.dev.config.js` as configuration file.
+
 
 For production environment, use
 ```
